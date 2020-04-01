@@ -22,4 +22,4 @@ stages:
         repository: 'quarkus-remote-dev'
         command: 'buildAndPush'
         Dockerfile: '$(Build.SourcesDirectory)/quarkus-remote-dev/src/main/docker/remote-dev.Dockerfile'
-        buildContext: '$(Build.SourcesDirectory)/quarkus-remote-dev'
+        buildContext: '$(Build.SourcesDirectory)/quarkus-remote-dev/.'
